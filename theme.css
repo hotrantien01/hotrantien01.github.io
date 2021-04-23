@@ -1,0 +1,76 @@
+html,body,div,span,h1,h2{padding: 0;border: 0;margin: 0;background: transparent;font-size: 100%;font-weight: inherit;vertical-align: baseline;}
+.clearfix:after { content: "\00A0"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}html[xmlns] .clearfix { display: block;}* html .clearfix{ height: 1%;}
+html{height:100%;background:radial-gradient(ellipse at bottom, #e82219 10%, #33201a 100%);background:url('Background.jpg');overflow:hidden;text-align:center; background-size:cover}
+body{font-size:1.6em;background:transparent;color:#ffffff;font-family: 'Lobster',Helvetica,Arial,sans-serif;}
+#topbar{background-color:rgb(255, 255, 255);padding:5px 0;}
+#main{max-width:1100px;margin:auto;margin-top:5%;}
+.colorlight{
+	text-shadow: 0 0 10px #efe81d,0 0 20px #efe81d,0 0 30px #efe81d,0 0 40px #f80f1f,0 0 70px #f80f1f,0 0 80px #f80f1f,0 0 100px #f80f1f,0 0 150px #f80f1f;}
+h1{font-size:3em;margin:.35em 0 0;}h2{margin:0;}
+.clock {
+	float:left;overflow:hidden;
+	border-radius: 50%;
+	background-color:#ffffff12;
+	color:rgb(255, 255, 255);
+	position:relative;
+	width:20%;
+	height:0;
+	padding-bottom:20%;
+	margin:3% 0 3% 4%;}
+.clock .num {font-size:350%;font-weight:700;height:0;line-height:190%;}
+.clock .text {font-size:130%;text-transform:uppercase;background-color:#e1f00f69;position:absolute;bottom:0;width:100%;line-height:180%;}
+.clock.tet{background-color:#f6361e;}
+.clock.tet .text{background-color:#d00120;}
+	a{text-decoration:none;color:red;	}
+	/* .fb-comments{
+		background-color: transparent;
+	} */
+#taitro{margin-top:2.4em;}
+#taitro a{color:#f7e158;text-decoration:none;font-size:1.5em;}
+#footer{position:absolute;bottom:20px;width:100%;}
+@media (max-width: 767px){body{font-size:14px;}h2{font-size:1.6em;}
+@media (max-width: 480px){a{
+	text-decoration:none;
+	color:#ff1800bf;
+	}
+	html
+	{ 
+		background:url('Background_mobi.jpg');
+		background-size:cover;
+	}
+	body{
+		color:#00e0f7f2;
+	}
+	.clock 
+	{
+		width:35%;
+		padding-bottom:35%;
+		margin:5% 0 0 10%;
+		color:#ffffff;
+	}
+	h1
+	{
+		margin-top:.55em;
+	}
+.clock .num 
+{
+	font-size:350%;
+	font-weight:700;
+	height:0;
+	line-height:190%;
+}
+.clock .text
+{
+	font-size:130%;
+	text-transform:uppercase;
+	background-color:#61ef338f;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	line-height:180%;
+}
+
+#folow{
+	color:rgb(255, 255, 255);
+}}
+@media only screen and (max-width: 767px) and (orientation: landscape) {#main{margin-top:1%;}h1{margin-top:0;}}}
