@@ -246,5 +246,10 @@ body {
       @media screen and (max-width: 480px) {
         .profile-box .rit-data ul li {
           font-size: .9rem; } }
+ a:link {
+     color: rgb(30, 240, 255);
+     background-color: transparent;
+     text-decoration: none;
+        }         
 
 /*# sourceMappingURL=style.css.map */
